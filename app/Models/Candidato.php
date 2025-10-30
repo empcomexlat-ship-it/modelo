@@ -11,17 +11,22 @@ class Candidato extends Model
     use HasFactory;
 
     protected $fillable = [
-        'nombre', 'slug', 'frase', 'partido_politico', 'imagen_principal',
-        'descripcion_corta', 'biografia', 'facebook', 'instagram', 'tiktok', 'youtube', 'estado'
+        'nombre',
+        'slug',
+        'frase',
+        'partido_politico',
+        'imagen_principal',
+        'descripcion_corta',
+        'biografia',
+        'facebook',
+        'instagram',
+        'tiktok',
+        'youtube',
+        'estado'
     ];
 
     public function noticias()
     {
         return $this->hasMany(Noticia::class);
-    }
-
-    public function imagenes()
-    {
-        return $this->morphMany(Imagen::class, 'imagenable');
     }
 }

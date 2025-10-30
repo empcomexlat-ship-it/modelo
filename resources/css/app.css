@@ -24,6 +24,13 @@
 @import "./web/paginas/noticias.css";
 @import "./web/paginas/landing.css";
 @import "./admin/layout.css";
+@import "./admin/layout-header.css";
 @import "./admin/components/header.css";
 @import "./admin/components/menu-principal.css";
 @import "./admin/components/pagina-cabecera.css";
+@import "./admin/tabla.css";
+@import "./admin/tabla-cabecera.css";
+@import "./admin/dropzone.css";
+@import "./admin/formulario.css";
+@import "./admin/modal.css";
+@import "./admin/sorteable.css";

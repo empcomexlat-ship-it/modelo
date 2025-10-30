@@ -11,13 +11,5 @@ class ImagenSeeder extends Seeder
     /**
      * Run the database seeds.
      */
-    public function run(): void
-    {
-        $candidato = Candidato::first();
-
-        Imagen::factory()->create([
-            'imagenable_id' => $candidato->id,
-            'imagenable_type' => Candidato::class,
-        ]);
-    }
+    public function run(): void {}
 }

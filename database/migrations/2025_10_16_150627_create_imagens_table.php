@@ -14,12 +14,12 @@ return new class extends Migration
         Schema::create('imagens', function (Blueprint $table) {
             $table->id();
 
-            $table->string('url');
+            $table->string('path');
+            $table->string('url')->nullable();
             $table->string('titulo')->nullable();
-            $table->text('descripcion')->nullable();
-            $table->unsignedBigInteger('imagenable_id');
-            $table->string('imagenable_type');
-            
+            $table->string('descripcion')->nullable();
+            $table->string('extension')->nullable();
+
             $table->timestamps();
         });
     }

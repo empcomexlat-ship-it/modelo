@@ -1,4 +1,4 @@
-@section('tituloPagina', 'Candidato')
+@section('tituloPagina', 'Slider')
 
 @section('anchoPantalla', '100%')
 
@@ -6,14 +6,14 @@
     <!--CABECERA TITULO PAGINA-->
     <div class="g_panel cabecera_titulo_pagina">
         <!--TITULO-->
-        <h2>Banners</h2>
+        <h2>Slider</h2>
 
         <!--BOTONES-->
         <div class="cabecera_titulo_botones">
             <a href="{{ route('admin.slider.vista.todo') }}" class="g_boton g_boton_light">
                 Inicio <i class="fa-solid fa-house"></i></a>
 
-            <a href="{{ route('admin.slider.vista.todo') }}" class="g_boton g_boton_primary">
+            <a href="{{ route('admin.slider.vista.crear') }}" class="g_boton g_boton_primary">
                 Crear <i class="fa-solid fa-square-plus"></i></a>
         </div>
     </div>
@@ -44,7 +44,8 @@
                                     <td> <img src="{{ $item->imagen_movil }}" alt="{{ $item->nombre }}"> </td>
                                     <td>{{ $item->link }}</td>
                                     <td class="centrar_iconos">
-                                        <a href="" class="g_accion_editar">
+                                        <a href="{{ route('admin.slider.vista.editar', $item) }}"
+                                            class="g_accion_editar">
                                             <span><i class="fa-solid fa-pencil"></i></span>
                                         </a>
                                     </td>
