@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "nombre": "1",
+        "ruta": "#",
+        "url": "#",
+        "icono": "fa-solid fa-users-viewfinder",
+        "nivel": 1,
+        "submenus": [
+            {
+                "id": 11,
+                "nombre": "Slider",
+                "ruta": "admin.slider.vista.todo",
+                "url": "/admin/slider",
+                "icono": "fa-solid fa-check-to-slot",
+                "nivel": 2,
+                "submenus": []
+            }
+        ]
+    }
+]

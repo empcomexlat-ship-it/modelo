@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap");
 
 :root {
-
     --fondo-color-1: #f5991a;
     --fondo-color-2: #1e1e1e;
     --fondo-color-3: #fafafa;
@@ -19,7 +18,7 @@
     --color-fondo-whatsapp: #25d366;
     --color-texto-whatsapp: #fff;
 
-    --font-sans: 'Instrument Sans', sans-serif;
+    --font-sans: "Instrument Sans", sans-serif;
     /**/
     --color-fondo-pagina: #fafafa;
     /**/
@@ -29,16 +28,16 @@
     --alto-header-web: 80px;
     /**/
 
-    --color-negro: #01274C;
+    --color-negro: #01274c;
     /**/
     --color-verde: #00ac08;
     /**/
     --color-whatsapp: #25d366;
     --color-blanco: #fff;
     /**/
-    --color-plomo: #F8F8FA;
+    --color-plomo: #f8f8fa;
     /**/
-    --color-gris: #E3E3E3;
+    --color-gris: #e3e3e3;
     /**/
     --color-celeste: #009bdb;
     /**/
@@ -65,6 +64,4 @@
 
 body {
     font-family: var(--font-sans);
-    color: var(--color-texto-base);
-    background-color: var(--fondo-color-4);
 }

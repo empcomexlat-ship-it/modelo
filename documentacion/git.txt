@@ -4,9 +4,9 @@ git init
 git add .
 git commit -m "Master"
 git log
-git remote add origin https://github.com/Mersmith/martin-caicho.git
+git remote add origin https://github.com/empcomexlat-ship-it/modelo.git
 git push origin master
 
 *****************************************************************
 
-git clone https://github.com/Mersmith/martin-caicho.git
+git clone https://github.com/empcomexlat-ship-it/modelo.git

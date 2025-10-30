@@ -30,3 +30,11 @@ php artisan migrate:fresh --seed
 php artisan storage:link
 
 php artisan vendor:publish --tag=laravel-pagination
+
+php artisan make:middleware CheckAdmin
+
+php artisan make:livewire Admin/Slider/SliderTodoLivewire
+php artisan make:livewire Admin/Slider/SliderCrearLivewire
+php artisan make:livewire Admin/Slider/SliderEditarLivewire
+
+php artisan make:livewire Admin/Header/ComponenteHeaderLivewire
