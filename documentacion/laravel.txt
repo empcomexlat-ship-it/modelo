@@ -1,0 +1,32 @@
+laravel new martin-caicho
+
+php artisan make:model Candidato -mfsc
+php artisan make:model Pagina -mfsc
+php artisan make:model Menu -mfsc
+php artisan make:model Noticia -mfsc
+php artisan make:model Slider -mfsc
+php artisan make:model TipoMensaje -mfsc
+php artisan make:model Mensaje -mfsc
+php artisan make:model Imagen -mfsc
+php artisan make:model BloqueUno -mfsc
+php artisan make:model BloqueDos -mfsc
+php artisan make:model BloqueTres -mfsc
+php artisan make:model CallToAction -mfsc
+
+php artisan make:controller HomeController
+php artisan make:controller NosotrosController
+php artisan make:controller CandidatoController
+php artisan make:controller PaginaController
+php artisan make:controller MenuController
+php artisan make:controller NoticiaController
+php artisan make:controller SliderController
+php artisan make:controller MensajeController
+php artisan make:controller ImagenController
+php artisan make:controller LandingController
+php artisan make:controller WhatsAppController
+
+php artisan migrate:fresh --seed
+
+php artisan storage:link
+
+php artisan vendor:publish --tag=laravel-pagination

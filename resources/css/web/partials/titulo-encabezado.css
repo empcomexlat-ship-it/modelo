@@ -1,0 +1,35 @@
+.partials_contenedor_encabezado {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.partials_contenedor_encabezado h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: var(--color-texto);
+}
+
+.partials_contenedor_encabezado h2 span {
+    color: var(--color-texto-resaltado);
+}
+
+.partials_contenedor_encabezado p {
+    font-size: 18px;
+    color: var(--color-texto);
+    line-height: 1.6;
+}
+
+.titulo_simple{
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: var(--color-texto);
+}
+
+@media (max-width: 1024px) {
+
+    .partials_contenedor_encabezado h2 {
+        line-height: 35px;
+    }
+
+}

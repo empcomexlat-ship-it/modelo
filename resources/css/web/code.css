@@ -1,0 +1,135 @@
+.contenido_post h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.contenido_post h2 {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+.contenido_post h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Párrafos */
+.contenido_post p {
+    font-size: 17px;
+    color: var(--color-texto-terciario);
+}
+
+/* Imágenes */
+.contenido_post img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em 0;
+}
+
+/* Imágenes centradas y responsive */
+.contenido_post img {
+    display: block;
+    margin: 1em auto;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Videos centrados y responsive */
+.contenido_post iframe {
+    display: block;
+    margin: 1em auto;
+    max-width: 100%;
+}
+
+/* Contenedor general del post */
+.contenido_post figure {
+    display: table;
+    margin: 1em auto;
+    text-align: center;
+    max-width: 100%;
+}
+
+/* La imagen dentro de la figura */
+.contenido_post figure img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* El caption de la figura */
+.contenido_post figure figcaption {
+    font-size: 0.875rem;
+    color: #666;
+    margin-top: 0.5em;
+    text-align: center;
+    font-style: italic;
+}
+
+
+/* Listas generales */
+.contenido_post ul,
+.contenido_post ol {
+    padding-left: 2em;
+    /* espacio desde el borde */
+    margin-bottom: 1em;
+}
+
+/* Items de lista */
+.contenido_post ul li {
+    margin-bottom: 0.5em;
+    list-style-type: disc;
+}
+
+.contenido_post ol li {
+    margin-bottom: 0.5em;
+    list-style-type: decimal;
+}
+
+.contenido_post ol li::marker {
+    font-weight: 600;
+    color: #333;
+}
+
+/* Listas anidadas */
+.contenido_post ul ul,
+.contenido_post ul ol,
+.contenido_post ol ul,
+.contenido_post ol ol {
+    margin-bottom: 0;
+    margin-left: 1.5em;
+}
+
+
+
+/* Blockquotes */
+.contenido_post blockquote {
+    border-left: 4px solid #ccc;
+    padding-left: 1em;
+    color: #555;
+    margin: 1em 0;
+    font-style: italic;
+}
+
+/* Tablas básicas */
+.contenido_post table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+
+.contenido_post th,
+.contenido_post td {
+    border: 1px solid #ccc;
+    padding: 0.5em;
+    text-align: left;
+}
+
+.contenido_post th {
+    background-color: #f5f5f5;
+}
